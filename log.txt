@@ -39,5 +39,8 @@ Number of files remaining in 'images_dir': 52
 Number of files remaining in 'labels_dir': 52
 
 ## additional notes by myself
+
 2028 do not have the same dimension
 0683 has a good visualization
+
+use leave one out training as there is not much data to train, ideall to determine the best architecture across the fold or train a model in each fold and ensemble it
