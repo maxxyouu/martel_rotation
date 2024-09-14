@@ -1,0 +1,43 @@
+
+## output from the step 1
+Number of volumes created: 56
+Patients without masks: 
+    0296_r2_images have only one breast, 
+    0396_r_to be reviewed with Anne 2944196, 
+    0396_r_to be reviewed with Anne 2944196
+
+## output from step 2
+Total volumes copied: 53
+Patients without 'Ph1Sag' images:
+0296_r2_images have only one breast
+0283_r
+0881_r
+0396_r_to be reviewed with Anne 2944196
+0927_r_no tiff
+
+## output from step 3
+No files were deleted from images_dir.
+
+Deleted 3 file(s) from labels_dir:
+GE_0283.mha
+GE_0881.mha
+GE_0927.mha
+
+Number of files remaining in 'images_dir': 53
+Number of files remaining in 'labels_dir': 53
+
+## output from step 4
+Patients with 'merged_mask': 0791, 2024, 2028, 0834, 0283, 0683, 1008, 0776, 7035, 3033, 0927, 2073
+
+## output from step 5
+Removing GE_2028.mha from both directories.
+
+Removed 1 file(s) with differing dimensions:
+File: GE_2028.mha
+
+Number of files remaining in 'images_dir': 52
+Number of files remaining in 'labels_dir': 52
+
+## additional notes by myself
+2028 do not have the same dimension
+0683 has a good visualization
